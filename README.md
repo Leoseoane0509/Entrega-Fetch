@@ -1,4 +1,4 @@
-# Entrega-Operadores-Librerias
+# Entrega-Fetch
 
 # FETCH
 Lo que hice para la entrega de fetch fue crear dos ejemplos:
