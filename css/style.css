@@ -7,9 +7,9 @@
 body {
   scroll-behavior: smooth;
   background-color: #ece5de;
-font-family: 'Benne', serif;
-    min-height: 100vh; 
-  overflow-x: hidden; 
+  font-family: "Benne", serif;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -59,7 +59,7 @@ font-family: 'Benne', serif;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-    margin-bottom: 300px;
+  margin-bottom: 300px;
 }
 
 .hero-image article {
@@ -145,19 +145,19 @@ font-family: 'Benne', serif;
   font-weight: 800;
 }
 /* Reloj digital */
-#digitalClock{
+#digitalClock {
   margin-top: 100px;
   margin-bottom: 200px;
-   background-color: #413224;
-   padding: 70px;
+  background-color: #413224;
+  padding: 70px;
 }
-.digital-clock{
+.digital-clock {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.digital-clock h2{
+.digital-clock h2 {
   text-align: center;
   padding: 20px;
   text-transform: uppercase;
@@ -166,16 +166,16 @@ align-items: center;
   margin-top: 20px;
   color: #fff;
 }
-.clock-div{
-  width: 25%; 
+.clock-div {
+  width: 25%;
   padding: 20px;
   text-align: center;
   font-size: 2.2rem;
   color: #413224;
   margin-top: 10px;
   font-weight: 800;
-text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
-    color: #fff;
+  text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
+  color: #fff;
 }
 /*  Buscador y filtrador de productos */
 .container .barraBuscar {
@@ -188,7 +188,7 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   padding: 10px;
 }
 /* Productos */
-#services{
+#services {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -247,24 +247,63 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   background-color: #755a44;
 }
 /* Carrito de compras */
-#shoppingCart{
-    width: 100%;
+#shoppingCart {
+  width: 100%;
   height: 100vh;
   margin-top: 100px;
   margin-bottom: 100px;
   font-size: 20px;
   padding: 100px;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-
 }
-#shoppingCart h2{
+#shoppingCart h2 {
   text-align: center;
   padding: 20px;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 2.5rem;
+}
+.btn-info {
+  background-color: #413224;
+  color: #fff;
+  border: none;
+  width: auto;
+}
+.btn-info:hover {
+  background-color: #614b37;
+  color: #fff;
+  font-weight: 900;
+}
+.btn-danger {
+  background-color: #775b45;
+  border: none;
+  width: auto;
+}
+.btn-danger:hover {
+  background-color: #b68c6c;
+  color: #fff;
+  font-weight: 900;
+}
+#vaciar-carrito {
+  text-transform: uppercase;
+  background-color: #000;
+  color: #f6f2ef;
+  font-weight: 900;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  width: auto;
+}
+#vaciar-carrito:hover {
+  background-color: rgb(38, 38, 38);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
 }
 /* Formulario de contacto */
 .form-container {
@@ -277,27 +316,28 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.contact-form{
+.contact-form {
   background-color: #f6f2ef;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 2vw 4vw;
-  width:90%;
+  width: 90%;
   max-width: 600px;
-  border-radius:10px;
-  -webkit-border-radius;
-  -moz-border-radius:10px;
-  -ms-border-radius:10px;
-  -o-border-radius:10px;
-  -webkit-border-radius:10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
-.contact-form h3{
+.contact-form h3 {
   color: #413224;
   font-weight: 800;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-form input, .contact-form textarea{
+.contact-form input,
+.contact-form textarea {
   border: 0;
   margin: 10px 0;
   padding: 20px;
@@ -305,12 +345,12 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   background-color: rgb(210, 210, 210);
   font-size: 16px;
 }
-.contact-form  textarea{
+.contact-form textarea {
   resize: none;
 }
-.contact-form button{
+.contact-form button {
   padding: 15px;
-  background-color: #BEA38C;
+  background-color: #bea38c;
   color: #000;
   font-size: 18px;
   border: 0;
@@ -324,8 +364,8 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
-.contact-form button:hover{
-    background-color: #d5b9a1;
+.contact-form button:hover {
+  background-color: #d5b9a1;
   font-weight: 800;
 }
 /* Botón para ir a arriba */
@@ -345,26 +385,26 @@ text-shadow: 7px 7px 6px rgba(150, 150, 150, 1);
   z-index: 2;
 }
 /* Footer */
-footer{
+footer {
   background-color: #000;
 }
-footer h5{
-  color:#715740;
-    font-weight: 800;
+footer h5 {
+  color: #715740;
+  font-weight: 800;
 }
-.leonel{
-    color:#715740;
+.leonel {
+  color: #715740;
 }
-footer a{
+footer a {
   text-decoration: none;
 }
-footer .list-inline-item i{
+footer .list-inline-item i {
   font-size: 23px;
 }
 
 /* Media querie */
-@media screen and(max-width: 576px){
-  .btnArriba{
+@media screen and(max-width: 576px) {
+  .btnArriba {
     display: none;
   }
 }
