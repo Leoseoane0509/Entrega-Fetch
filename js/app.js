@@ -54,6 +54,22 @@ let carrito = {};
   name ? Swal.fire({ title: `Nice to meet you, ${name}!` }) : null;
 })();
 
+// Ventana de alerta que aparece cuando el usuario haya dado click en "buy" para finalizar la compra
+const alertComprar = () => {
+  Swal.fire({
+    title: "Successful purchase.",
+    text: "Thanks for choosing me 🤗",
+    icon: "success",
+    showCancelButton: false,
+    confirmButtonColor: "#513e2e",
+    confirmButtonText: "Wonderful!",
+    allowOutsideClick: false,
+    allowEscapeKey: false,
+    allowEnterKey: false,
+    stopKeydownPropagation: false,
+  });
+};
+
 // ----------USO DE TOASTIFY----------
 // Cartel que aparece cuando se haga click en el botón de "add to cart"
 const agregarToast = () => {
@@ -343,6 +359,13 @@ const pintarFooter = () => {
     carrito = {};
     pintarCarrito();
     eliminarTodo();
+  });
+  // Botón para finalizar la compra
+  const comprarButton = document.getElementById("btn-comprar");
+  comprarButton.addEventListener("click", () => {
+    carrito = {};
+    pintarCarrito();
+    alertComprar();
   });
 };
 
