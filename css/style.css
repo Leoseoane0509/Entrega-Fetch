@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
 /* Navigation Bar */
 .brand {
   color: beige;
@@ -247,6 +246,12 @@ body {
   background-color: #755a44;
 }
 /* Carrito de compras */
+.table {
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 #shoppingCart {
   width: 100%;
   height: 100vh;
@@ -270,6 +275,7 @@ body {
   color: #fff;
   border: none;
   width: auto;
+  margin: 10px;
 }
 .btn-info:hover {
   background-color: #614b37;
@@ -280,6 +286,7 @@ body {
   background-color: #775b45;
   border: none;
   width: auto;
+  margin: 10px;
 }
 .btn-danger:hover {
   background-color: #b68c6c;
